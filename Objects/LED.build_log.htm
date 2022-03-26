@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: D Rz, ABB, LIC=9WS45-GBYM8-0Z2WZ-JJ9AM-SQ460-WM0ND
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Middleware:      RL-ARM Real-Time Library Version V4.12
+Toolchain Path:  C:\Keil_v5\\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARM.DLL V5.24.1
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Дмитрий\Desktop\кейл 5\LED.uvproj
+Project File Date:  03/21/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling LED.c...
+LED.c(17): warning:  #223-D: function "InitLCD" declared implicitly
+  	InitLCD();	// инициализация дисплея
+LED.c(21): warning:  #223-D: function "button_temp" declared implicitly
+  		button_temp();	// функция регулирования по температуре
+LED.c(22): warning:  #223-D: function "button_current" declared implicitly
+  		button_current();	// функция регулирования по нагрузке
+LED.c(41): warning:  #223-D: function "SetLCD" declared implicitly
+  			SetLCD("0t. 1st_pumps ON...................", 30000);
+LED.c(190): warning:  #223-D: function "SetLCD" declared implicitly
+  			SetLCD("0t. 1st_pumps ON...................", 30000);
+LED.c(328): warning:  #940-D: missing return statement at end of non-void function "button_temp" 
+  }
+LED.c(343): warning:  #223-D: function "SetLCD" declared implicitly
+  			SetLCD("0%. 1st_pumps ON...................", 30000);
+LED.c(493): warning:  #223-D: function "SetLCD" declared implicitly
+  			SetLCD("0t. 1st_pumps ON...................", 30000);
+LED.c(631): warning:  #940-D: missing return statement at end of non-void function "button_current" 
+  }
+LED.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=12160 RO-data=48 RW-data=60 ZI-data=1260  
+FromELF: creating hex file...
+".\Objects\LED.axf" - 0 Error(s), 9 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

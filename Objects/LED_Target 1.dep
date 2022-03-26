@@ -1,0 +1,4 @@
+Dependencies for Project 'LED', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559D2F20)(--cpu ARM7TDMI -g --apcs=interwork -IC:\Keil_v5\\ARM\RV31\INC-IC:\Keil_v5\\ARM\CMSIS\Include-IC:\Keil_v5\\ARM\INC\Philips--pd "__UVISION_VERSION SETA 524"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\LED.c)(0x623E4526)(--c99 -c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\\ARM\RV31\INC-IC:\Keil_v5\\ARM\CMSIS\Include-IC:\Keil_v5\\ARM\INC\Philips-D__UVISION_VERSION="524"-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214X.H)(0x559D2F68)
